@@ -1,0 +1,382 @@
+/* Jumbotron */
+.jumbotron {
+  padding: 3rem 1rem;
+  background-color: #ffff;
+  background-image: url(img/10.png);
+  height: 88vh;
+  background-color: #222227;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+.display-4 {
+  margin-top: 1rem;
+}
+
+.lead {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2vw;
+}
+
+.sosial {
+  padding-bottom: 2rem;
+  margin-right: auto;
+}
+
+.info {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-left: 3rem;
+}
+
+/* ANIMATION */
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+.btn {
+  animation: bounce 1s infinite alternate;
+}
+
+.skills__img {
+  animation: bounce 1s infinite alternate;
+}
+/* About Me */
+.about {
+  margin-top: 90px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+#achievemant {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.graphicdesign {
+  margin-top: 25px;
+}
+
+.section-subtitle {
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+.section-title {
+  margin-top: -3.5rem;
+  margin-bottom: 2.2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 250px;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  margin-left: 8rem;
+}
+
+.information-data {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+  margin-bottom: var(--mb-3);
+  color: var(--first-color-darken);
+  font-weight: 500;
+}
+
+.information-nama {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  font-weight: 500;
+}
+
+.experience {
+  margin-top: 2rem;
+}
+
+.bi {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-right: 2rem;
+}
+
+.text {
+  text-align: justify;
+}
+
+/* EDUCATION */
+.education__container {
+  row-gap: 2rem;
+  z-index: -99999;
+}
+
+.education__content {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+.education__year {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  margin-right: 1.5rem;
+  font-size: 23px;
+}
+
+.education__university {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  padding-bottom: 5rem;
+  margin-left: 19.5rem;
+}
+
+.education__year,
+.education__university {
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+.education__time {
+  padding: 0 1rem;
+  justify-self: center;
+}
+
+.education__rounder {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  border-radius: 50%;
+  transform: translate(0px, 9px);
+}
+.education__rounder::before {
+  content: '';
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+.education__line {
+  display: block;
+  height: 100%;
+  width: 2px;
+  background-color: #000000;
+  transform: translate(5px, -2px);
+}
+
+.education__jurusan {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  margin-left: 1.5rem;
+  font-size: 23px;
+  margin-top: 0.5rem;
+}
+.education__specialty {
+  color: #000000;
+}
+
+/* EDUCATION 1*/
+.education__container {
+  row-gap: 2rem;
+  z-index: -99999;
+}
+
+.education__content {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+.education__year1 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  margin-right: 1.5rem;
+  font-size: 23px;
+}
+
+.education__university1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  padding-bottom: 5rem;
+  margin-left: 22.7rem;
+}
+
+.education__year1,
+.education__university1 {
+  text-align: right;
+  margin-top: 3rem;
+}
+
+.education__time1 {
+  padding: 0 1rem;
+  justify-self: center;
+}
+
+.education__rounder1 {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  border-radius: 50%;
+  transform: translate(0px, 9px);
+  margin-top: 3rem;
+}
+.education__rounder1::before {
+  content: '';
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+.education__line1 {
+  display: block;
+  height: 60%;
+  width: 2px;
+  background-color: #000000;
+  transform: translate(5px, -2px);
+}
+
+.education__jurusan1 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  margin-left: 1.5rem;
+  font-size: 23px;
+  margin-top: 3rem;
+}
+.education__specialty1 {
+  color: #000000;
+}
+
+.section-title1 {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.achievemant1 {
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+/* Skill */
+.skills__container {
+  row-gap: 2rem;
+}
+.skills__content {
+  padding: 1rem 0.5rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.skills__content:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.skills__img {
+  margin: auto;
+}
+
+/*scroll up*/
+#myBtn {
+  background-color: #222227;
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: none;
+  z-index: 99;
+}
+
+#myBtn::before,
+#myBtn::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 3.5px;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(225deg);
+  border: 2px solid rgb(255, 255, 255);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-up 1s ease-in-out infinite;
+}
+
+#myBtn::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+#myBtn:active {
+  background-color: #e099bd !important;
+}
+
+#myBtn:hover {
+  background-color: #9e99e0;
+}
+
+/*animate function*/
+@keyframes scroll-up {
+  100% {
+    /* top:20%; */
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  0% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .nav-link {
+    margin-right: 15px;
+  }
+  .nav-link:after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0080ff;
+    padding-bottom: 2px;
+    margin-bottom: -5px;
+    width: 0%;
+    transition: 0.3s;
+  }
+  .nav-link:hover {
+    color: #000000;
+  }
+  .nav-link:hover::after {
+    width: 100%;
+  }
+}
