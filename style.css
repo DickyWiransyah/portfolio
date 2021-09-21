@@ -32,6 +32,21 @@
   padding-left: 3rem;
 }
 
+.chemical-tools {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.background {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.vehicle {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
 /* ANIMATION */
 @keyframes bounce {
   from {
